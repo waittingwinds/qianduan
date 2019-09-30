@@ -1,21 +1,21 @@
 ﻿一 将文本文件上传至git
     1添加文件
 	输入 git init，来完成初始化工作。这时候目录里面就多了一个.git的目录了。　
-	git config --global user.name "yanghao102"
-	git config --global user.email "945921408@qq.com" 
-	git remote add origin git@github.com:ll623548198/blus.git
-	it pull git@github.com:bxxfighting/buxingxing.git完成的效果如下图，并且本地目录下多出了README.md文件。
+	git config --global user.name "waittingwinds"
+	git config --global user.email "243618133@qq.com" 
+	git remote add origin git@github.com:waittingwinds/qianduan.git     增加对我们github上创建的qianduan仓库的管理
+	it pull git@github.com:waittingwinds/qianduan.git 完成的效果如下图，并且本地目录下多出了README.md文件。
 
-	a) 执行增加命令，如下：git   add   .    （这后面是一个英文的句号）
+	a) 执行增加命令，如下：git   add   .    这后面是一个英文的句号
 
 　　 	b) 执行提交命令，如下：git   commit   –m   “1”    (如果提交单个文件1，就这样写；如果提交所有文件，写成：git   commit   –m  *)
 
-　　 	c) 执行推送命令，如下：git   push   git@github.com:ll623548198/blus.git
+　　 	c) 执行推送命令，如下：git   push   git@github.com:waittingwinds/qianduan.git
    2更新添加 
 	git add .
 	git commit -m "second commit"
 	git push origin master
   3删除
    	  git rm --cached filename
-	git commit -m "hehe"
-	git push origin
+	 git commit -m "hehe"
+	 git push origin
